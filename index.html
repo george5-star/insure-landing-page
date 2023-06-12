@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+
+    <!-- link to typefaces -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/styles.css" />
+
+    <script src="./src/js/script.js" defer></script>
+
+    <title>Frontend Mentor | Insure landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="wrapper">
+          <div class="brand">
+            <img src="./src/images/logo.svg" alt="logo image" />
+          </div>
+          <div class="nav__container">
+            <ul class="nav-list">
+              <li class="nav-list__item">
+                <a href="#" class="nav-link">How we work</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="#" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-list__item">
+                <a href="#" class="nav-link">Account</a>
+              </li>
+            </ul>
+            <div class="nav__cta">View plans</div>
+          </div>
+          <div class="hamburger">
+            <img src="./src/images/icon-hamburger.svg" alt="" />
+          </div>
+          <div class="close">
+            <img src="./src/images/icon-close.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="wrapper">
+          <section class="hero__message">
+            <h1 class="hero__title">Humanizing <span>your insurance.</span></h1>
+
+            <p class="hero__description">
+              Get your life insurance coverage easier and faster. We blend our
+              expertise and technology to help you find the plan that's right
+              for you. Ensure you and your loved ones are protected.
+            </p>
+
+            <button class="btn hero__cta">View plans</button>
+          </section>
+        </div>
+        <section class="hero__image"></section>
+      </section>
+    </header>
+
+    <main class="main">
+      <div class="wrapper">
+        <h2 class="main__title">We're different</h2>
+
+        <div class="feature feature--container">
+          <div class="feature__item">
+            <div class="feature__image">
+              <img
+                src="./src/images/icon-snappy-process.svg"
+                alt="snappy process icon"
+              />
+            </div>
+            <div class="feature__description-container">
+              <h3 class="feature__title">Snappy Process</h3>
+
+              <p class="feature__description">
+                Our application process can be completed in minutes, not hours.
+                Don't get stuck filling in tedious forms.
+              </p>
+            </div>
+          </div>
+          <div class="feature__item">
+            <div class="feature__image">
+              <img
+                src="./src/images/icon-affordable-prices.svg"
+                alt="affordable prices icon"
+              />
+            </div>
+            <div class="feature__description-container">
+              <h3 class="feature__title">Affordable Prices</h3>
+
+              <p class="feature__description">
+                We don't want you worrying about high monthly costs. Our prices
+                may be low, but we still offer the best coverage possible.
+              </p>
+            </div>
+          </div>
+          <div class="feature__item">
+            <div class="feature__image">
+              <img
+                src="./src/images/icon-people-first.svg"
+                alt="people first icon"
+              />
+            </div>
+            <div class="feature__description-container">
+              <h3 class="feature__title">People First</h3>
+
+              <p class="feature__description">
+                Our plans aren't full of conditions and clauses to prevent
+                payouts. We make sure you're covered when you need it.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__cta-container">
+          <h3 class="cta-title">
+            Find out more <span>about how we work</span>
+          </h3>
+
+          <button class="btn">How we work</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__socials">
+          <div class="footer__logo">
+            <img src="./src/images/logo.svg" alt="logo image" />
+          </div>
+          <ul class="footer__social-list">
+            <li class="footer__social-list-item">
+              <a href="#" class="footer__social-link">
+                <img src="./src/images/icon-facebook.svg" alt="icon image" />
+              </a>
+            </li>
+            <li class="footer__social-list-item">
+              <a href="#" class="footer__social-link">
+                <img src="./src/images/icon-twitter.svg" alt="icon image" />
+              </a>
+            </li>
+            <li class="footer__social-list-item">
+              <a href="#" class="footer__social-link">
+                <img src="./src/images/icon-pinterest.svg" alt="icon image" />
+              </a>
+            </li>
+            <li class="footer__social-list-item">
+              <a href="#" class="footer__social-link">
+                <img src="./src/images/icon-instagram.svg" alt="icon image" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <nav class="nav-container">
+          <div class="footer__nav">
+            <h4 class="footer__nav-title">Our company</h4>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">How we work</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Why Insure?</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">View plans</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Reviews</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__nav">
+            <h4 class="footer__nav-title">Help me</h4>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">FAQ</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Terms of use</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Privacy policy</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Cookies</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__nav">
+            <h4 class="footer__nav-title">Contact</h4>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Sales</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Support</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Live chat</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__nav">
+            <h4 class="footer__nav-title">Others</h4>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Careers</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Press</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Licenses</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
